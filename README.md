@@ -2,6 +2,8 @@
 
 An interactive wizard for configuring vault security with network connections and multisig device setup.
 
+🌐 **Live Site:** [https://courtny.github.io/Connections-Experiment/](https://courtny.github.io/Connections-Experiment/)
+
 ## Features
 
 - Step-by-step vault security configuration
