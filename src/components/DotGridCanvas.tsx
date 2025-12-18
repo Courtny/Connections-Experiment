@@ -19,7 +19,7 @@ export default function DotGridCanvas({
   className = '' 
 }: DotGridCanvasProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | undefined>(undefined);
   const dotsRef = useRef<Dot[]>([]);
   const mousePosRef = useRef<{ x: number; y: number } | null>(null);
 
